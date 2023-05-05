@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 5rem !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 700 !important;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #4a1831;
+
+
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link {
+    font-family: 'Montserrat', sans-serif !important;
+    letter-spacing: 2px;
+    color: #ffd7ad !important;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link:hover {
+    font-family: 'Montserrat', sans-serif !important;
+    letter-spacing: 2px;
+    color: #c78034 !important;
+}
+
+.navbar-toggler {
+    background-color: #ffd7ad !important;
+
+}
+
+.navbar-toggler-icon {
+    background-color: #ffd7ad !important;
+}
+
+.banner-cont {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 70px;
+    width: 500px;
+    text-align: justify !important;
+}
+
+
+.carousel-caption h1 {
+
+    font-size: 5rem !important;
+    color: #ffffff !important;
+
+    -webkit-text-stroke: 2px rgb(255, 179, 73);
+
+}
+
+.carousel-caption p {
+    font-size: 1.2rem !important;
+    font-family: 'Roboto', sans-serif !important;
+    text-align: justify;
+    color: #ffffff !important;
+    margin-top: 25px;
+    -webkit-text-stroke: 0.5px rgb(109, 109, 109);
+    line-height: 22px;
+}
+
+.btn {
+    border-radius: 30px !important;
+    width: 200px;
+    background-color: #ffffff !important;
+    color: #4a1831 !important;
+    border: none !important;
+}
+
+.btn-border {
+    border: 2px solid rgb(255, 179, 73) !important;
+}
+
+.btn:hover {
+    background-color: #f2bf89 !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+#second-img {
+    margin-top: 100px !important;
+}
+
+.bg-color {
+    background-color: #ffd7ad;
+}
+
+.title {
+    width: 100%;
+    padding-top: 70px !important;
+
+
+}
+
+.title h1 {
+    padding-bottom: 35px;
+    color: #4a1831 !important;
+}
+
+.title h1~p {
+    color: #4a1831 !important;
+    text-align: center;
+    line-height: 22px;
+}
+
+.see_menu-btn {
+    background-color: #4a1831 !important;
+    color: #ffd7ad !important;
+}
+
+.see-offers {
+    background-color: #ffd7ad !important;
+    color: #4a1831 !important;
+
+}
+
+.about-mariachi h1 {
+    color: #4a1831;
+}
+
+.about-mariachi h1~p {
+    color: #4a1831 !important;
+
+}
+
+.about-mariachi {
+    margin-top: 20% !important;
+
+}
+
+.about-head {
+    position: absolute !important;
+    top: 50px !important;
+    left: 10px !important;
+
+    margin-left: 80px;
+}
+
+.about-head h1 {
+    line-height: 40px;
+}
+
+.offer-head h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem !important;
+
+}
+
+.offer-head h2,
+p {
+    font-family: 'Roboto', sans-serif !important;
+    text-align: justify;
+    color: #ffd7ad !important;
+}
+
+.feedback {
+    background: url(./img/7375040_3629579_06.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.newsletter h1 {
+    font-family: 'Roboto', sans-serif !important;
+    color: #4a1831;
+}
+
+.newsletter p {
+    font-family: 'Roboto', sans-serif !important;
+    color: #4a1831 !important;
+}
+
+.frm-control {
+    position: relative;
+}
+
+
+label {
+    margin-left: 110px;
+}
+
+.input {
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    display: block;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    height: 42px;
+    padding: 12px 25px;
+    width: 500px !important;
+
+}
+
+.form-btn {
+    background-color: #4a1831;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    height: 42px;
+    padding: 12px 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.input:focus,
+.form-btn:focus {
+    outline: 0;
+
+}
+
+.form-btn:hover {
+    background-color: #1d1825;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif !important;
+    color: #ffd7ad;
+}
+
+
+ul {
+
+    list-style-type: none;
+}
+
+ul li {
+    text-align: start;
+    color: #ffd7ad;
+    line-height: 1.5 !important;
+}
+
+ul li a {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffd7ad;
+    transition: top ease 0.10s;
+    position: relative;
+    top: 0;
+}
+
+li a:hover {
+    color: #f7af63;
+    top: -3px;
+}
+
+
+.social-link a {
+    text-decoration: none;
+    font-size: 20px;
+    transform: top ease 0.10s;
+    position: relative;
+    top: 0;
+}
+
+.social-link a:hover {
+    top: -3px;
+
+}
+
+.social-link a i {
+    font-size: 25px;
+    color: #ffd7ad;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:1500px) {
+    .carousel-caption {
+        padding-bottom: 8%;
+    }
+
+    .btn {
+        border-radius: 30px !important;
+        width: 150px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:1199px) {
+
+    .carousel-caption h1 {
+        font-size: 4rem !important;
+        color: #ffd7ad !important;
+
+        -webkit-text-stroke: 2px rgb(255, 179, 73);
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem !important;
+        font-family: 'Roboto', sans-serif !important;
+        text-align: justify;
+        color: #ffffff !important;
+        margin-top: 25px;
+
+    }
+
+    h1 {
+        font-size: 4rem !important;
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 700 !important;
+
+    }
+
+    .btn {
+        border-radius: 30px !important;
+        width: 130px;
+    }
+
+    .about-mariachi {
+        margin-top: 15% !important;
+    }
+
+    .see_menu-btn {
+        background-color: #4a1831 !important;
+        color: #ffd7ad !important;
+        font-size: 15px !important;
+
+
+    }
+
+    label {
+        margin: 0px 0px 90px 5px !important;
+
+    }
+
+    .input {
+
+        width: 450px !important;
+    }
+
+    .about-footer {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .p-chips-offer {
+        text-align: justify !important;
+    }
+
+    .chips-offer {
+        margin: 11% !important;
+    }
+
+    .offer-head h2 {
+        font-size: 35px !important;
+    }
+
+    .offer-head p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+
+    .carousel-caption h1 {
+        font-size: 3rem !important;
+        color: #ffd7ad !important;
+
+        -webkit-text-stroke: 2px rgb(255, 179, 73);
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+
+    h1 {
+        font-size: 3rem !important;
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 700 !important;
+
+    }
+
+    .about-mariachi {
+        margin-top: 12% !important;
+
+    }
+
+    label {
+        margin: 0px 0px 90px 5px !important;
+
+    }
+
+    .input {
+
+        width: 450px !important;
+    }
+
+    .chips-offer {
+        margin-top: 12% !important;
+    }
+
+    .offer-head h2 {
+        font-size: 30px !important;
+    }
+
+    .offer-head p {
+        font-size: 15px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:767px) {
+    .carousel-caption h1 {
+        font-size: 2.5rem !important;
+        color: #ffd7ad !important;
+
+        -webkit-text-stroke: 2px rgb(255, 179, 73);
+    }
+
+    .carousel-caption {
+        top: 0px;
+    }
+
+    .carousel-caption_rest {
+        margin-bottom: 100px;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 700 !important;
+
+    }
+
+    .img-width {
+        display: none;
+    }
+
+    .about-mariachi {
+        margin-top: 50px !important;
+        padding: 0px 60px !important;
+
+    }
+
+    label {
+        margin: 0px 0px 0px 95px !important;
+
+    }
+
+    .input {
+
+        width: 450px !important;
+    }
+
+    .chips-offer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:575px) {
+
+    .carousel-caption h1 {
+        font-size: 1.5rem !important;
+        color: #ffd7ad !important;
+
+        -webkit-text-stroke: 2px rgb(255, 179, 73);
+    }
+
+    h1 {
+        font-size: 1.5rem !important;
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 700 !important;
+
+    }
+
+
+    #carouselExampleCaptions {
+        display: none;
+    }
+
+    .about-mariachi {
+        margin-top: 50px !important;
+        padding: 10px 60px !important;
+
+    }
+
+    .about-footer {
+        padding: 0px !important;
+    }
+
+    .frm-control {
+        position: relative;
+
+    }
+
+    label {
+        margin-left: 40px !important;
+
+    }
+
+    .input {
+
+        width: 280px !important;
+
+    }
+
+
+    .form-btn {
+
+        padding: 12px 20px;
+
+    }
+
+
+    .about-head-title-3 {
+        font-size: 65px !important;
+    }
+
+    .about-head-title-2 {
+        font-size: 25px !important;
+    }
+
+    .about-head {
+        margin-left: 40px;
+    }
+
+    .chips-offer {
+        display: none;
+    }
+}
